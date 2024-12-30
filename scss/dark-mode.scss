@@ -1,0 +1,48 @@
+@use './variable.scss' as *;
+
+body {
+  &.dark-mode {
+    section {
+      &:nth-of-type(even) {
+        background-color: #333;
+        .tit {
+          color: $wh;
+        }
+      }
+      &:nth-of-type(odd) {
+        background-color: $bk;
+        .tit {
+          color: $wh;
+        }
+      }
+    }
+    .section3 {
+      .text-box {
+        color: $wh;
+      }
+      .inner {
+        :is(.swiper-button-next, .swiper-button-prev)::after {
+          color: $wh;
+        }
+        .swiper-pagination-bullet {
+          background-color: $wh;
+        }
+      }
+    }
+    .section4 {
+      .tit.font-bold {
+        color: $bk;
+      }
+      @media screen and (max-width: 840px) {
+        .inner .my-info li {
+          a {
+            color: $wh;
+          }
+          span:not(.xi) {
+            color: $wh;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+$bk: #222;
+$wh: #fcfcfc;
+$yl: #f4c500;
+$bl: #32bef3;
+$pp: #ba75e3;
+$mint: #90d8cc;
+$shadow: rgba(0, 0, 0, 0.1);
+$boxShadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+$gray: #aaa;
+$darkGray: #777;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    $wh: #0a0a0a;
+    $bk: #ededed;
+  }
+}

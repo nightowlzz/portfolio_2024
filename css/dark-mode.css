@@ -1,0 +1,26 @@
+body.dark-mode section:nth-of-type(even) {
+  background-color: #333;
+}
+body.dark-mode section:nth-of-type(even) .tit {
+  color: #fcfcfc;
+}
+body.dark-mode section:nth-of-type(odd) {
+  background-color: #222;
+}
+body.dark-mode section:nth-of-type(odd) .tit {
+  color: #fcfcfc;
+}
+body.dark-mode .section3 .text-box {
+  color: #fcfcfc;
+}
+body.dark-mode .section3 .inner :is(.swiper-button-next, .swiper-button-prev)::after {
+  color: #fcfcfc;
+}
+body.dark-mode .section3 .inner .swiper-pagination-bullet {
+  background-color: #fcfcfc;
+}
+body.dark-mode .section4 .tit.font-bold {
+  color: #222;
+}
+
+/*# sourceMappingURL=dark-mode.css.map */
